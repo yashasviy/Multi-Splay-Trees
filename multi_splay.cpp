@@ -12,15 +12,10 @@ struct node {
     node* parent;
 };
 
-// Function to find the minimum of two numbers
-int min(int a, int b) {
-    return (a < b) ? a : b;
-}
-
 // Global variable for the root of the tree
 node* root;
 
-// Function to display information about nodes in the tree
+// Function to display information 
 void Display(node* root) {
     cout << "Value: " << root->key << "\nis it the root: " << (root->is_root ? "True" : "False") << endl;
 
