@@ -1,1 +1,1 @@
-# Multi-Splay-Trees
+# MultiSplayTrees
